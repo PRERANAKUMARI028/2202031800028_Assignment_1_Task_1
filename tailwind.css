@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a:hover {
+    color: #d1d5db; /* Light gray hover effect */
+}
+
+.bg-purple-700 {
+    background-color: #6b21a8;
+}

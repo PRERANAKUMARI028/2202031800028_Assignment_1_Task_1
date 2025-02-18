@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu-button {
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background: linear-gradient(to right, indigo, purple, pink);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, pink, purple, indigo);
+    color: white;
+}
+
+.grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 100px;
+}
+
+.skill {
+    background: indigo;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
